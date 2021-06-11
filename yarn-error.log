@@ -1,0 +1,38 @@
+Arguments: 
+  /usr/local/Cellar/node/16.1.0/bin/node /usr/local/bin/yarn set version 3.0.0-rc.5
+
+PATH: 
+  /Users/junhoyeo/.poetry/bin:/Users/junhoyeo/.rbenv/shims:/Users/junhoyeo/.rbenv/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/junhoyeo/.poetry/bin:/Users/junhoyeo/.rbenv/shims:/Users/junhoyeo/.rbenv/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/junhoyeo/Library/Android/sdk/emulator:/Users/junhoyeo/development/flutter/bin:/Users/junhoyeo/Library/Android/sdk/emulator:/Users/junhoyeo/development/flutter/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.1.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: Release not found: 3.0.0-rc.5
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:89857:17
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+npm manifest: 
+  {
+    "name": "ask-again",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/junhoyeo/ask-again",
+    "author": "Junho Yeo <hanaro0704@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
